@@ -3,8 +3,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 
 }
-<form action="Verify" method="post">
-    <div class="container-fluid h-100">
+<form action="Verify" method="post" >
+    <div class="container-fluid h-100 w-100 p-5" style="background-color:#00ace6;" >
         <div class="d-flex justify-content-center h-100 m-5">
             <div class="user_card">
                 <div class="d-flex justify-content-center">
@@ -12,6 +12,7 @@
                         <img src="https://en.pimg.jp/058/104/869/1/58104869.jpg" class="brand_logo" alt="Logo" />
                     </div>
                 </div>
+                <br>
                 <div class="row" style="margin-top:60px;" >
                     <div class="input-group" >
                      <i class='fas fa-user-alt bg-danger mt-5 p-3' style="font-size:20px; color:white; "></i> <input type="text" class="form-control col-md-10 mt-5" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">                  
@@ -19,7 +20,7 @@
                 
 
                  <div class="input-group" >
-                     <i class='fa fa-key icon bg-danger mt-2 p-3' style="font-size:20px; color:white; "></i> <input type="text" class="form-control col-md-10 mt-2" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">                  
+                     <i class='fa fa-key icon bg-danger mt-2 p-3' style="font-size:20px; color:white; "></i> <input type="password" class="form-control col-md-10 mt-2" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">                  
                     </div>
                 <div class="d-grid gap-2 mt-3 ">
                     <button class="btn btn-success" type="button">Submit</button>
@@ -29,11 +30,12 @@
                 </div>
                 <div class="mt-4 mb-4">
                     <div class="d-flex justify-content-center links">
-                        Don't have an account? <a href="#" class="ml-2">Sign Up</a>
+                        Don't have an account? <a href="../Views../Views/Account/" class="ml-2">Sign Up</a>
                     </div>
                     <div class="d-flex justify-content-center links">
                         <a href="#">Forgot your password?</a>
                     </div>
+                  
                 </div>
 
             </div>
